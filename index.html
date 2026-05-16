@@ -73,9 +73,9 @@ button:active{transform:scale(.97)}
 .bottom-btn{position:fixed;left:20px;right:20px;bottom:calc(var(--safe-bottom)+18px);width:auto}
 
 /* APP */
-.app-screen{position:fixed;inset:0;display:none;overflow:auto;padding:calc(var(--safe-top)+4px) 16px calc(140px + var(--safe-bottom));background:var(--bg)}
+.app-screen{position:fixed;inset:0;display:none;overflow:auto;padding:calc(var(--safe-top)+2px) 16px calc(180px + var(--safe-bottom));background:var(--bg)}
 .app-screen.active{display:block}
-.app-header{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:4px}
+.app-header{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:0;padding-top:0}
 .app-header h2{font-family:'Tajawal',sans-serif;font-size:22px;font-weight:900}
 .muted{color:var(--faint);font-size:12px}
 .muted-text{color:var(--muted);font-size:13px;line-height:1.8}
@@ -89,7 +89,7 @@ button:active{transform:scale(.97)}
 .month-tabs::-webkit-scrollbar{display:none}
 .month-tab{flex:0 0 auto;padding:9px 15px;border-radius:99px;background:var(--bg-3);color:var(--faint);border:1px solid rgba(255,255,255,.05);font-weight:800;font-size:12px}
 .month-tab.active{background:rgba(201,160,48,.13);border-color:var(--line);color:var(--gold-1)}
-.page{display:none;animation:fadeUp .25s ease;padding-top:8px}
+.page{display:none;animation:fadeUp .25s ease;padding-top:4px;padding-bottom:120px}
 .page.active{display:block}
 @keyframes fadeUp{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 
